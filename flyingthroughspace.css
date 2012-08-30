@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.star {
+    /*background-color: white;*/
+    /*border-radius: 30px;*/
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    background: -moz-radial-gradient(closest-side circle,#FFF,#000);
+    background: -o-radial-gradient(closest-side circle,#FFF,#000);
+    background: -webkit-radial-gradient(closest-side circle,#FFF,#000);
+    background: radial-gradient(closest-side circle,#FFF,#000);
+}
